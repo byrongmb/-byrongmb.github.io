@@ -1,6 +1,17 @@
+/*Reglas
+selectores
+declaraciones
+propiedades
+valores
+*/
+/*Selector de Etiqueta*/
 header{
     background: cyan;
+    color: red;
 }
-body{
-    background: darkblue;
-}
+/*Selector Descendente*/
+/* .link */
+
+/*Selector de ID*/
+/* #portafolio */
+
