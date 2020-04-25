@@ -5,15 +5,21 @@ propiedades
 valores
 */
 /*Selector de Etiqueta*/
-/* header{
-    background: cyan;
-    color: red;
-} */
-/*Selector Descendente*/
-/* .link */
-
-/*Selector de ID*/
-/* #portafolio */
+header{
+    background-color: #1d252c;
+    color: white;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.principal{
+    background-color: #1d252c;
+    background-image: url("../img/hero.jpg");
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
@@ -28,7 +34,13 @@ h1{
     font-size: 40px;
     letter-spacing: -.2px;
     font-weight: normal;
+    color: white;
 }
+h1 strong{
+    color:#026fff;
+}
+
+
 .projects-details
 {
     width: 500px;
