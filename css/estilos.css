@@ -62,3 +62,18 @@ h1 strong{
 .Principal{
     height: 300px;
 }
+
+
+/* Pruebas con FlexBox */
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.box{
+    border: 1px red solid;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    
+}
