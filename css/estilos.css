@@ -40,16 +40,18 @@ h1 strong{
     color:#026fff;
 }
 
+.project{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
 
-.projects-details
-{
+
+.projects-details{
     width: 500px;
 }
-.projecto-image-container
-{
+.projecto-image-container{
     width: 500px;
 }
-.Principal
-{
+.Principal{
     height: 300px;
 }
