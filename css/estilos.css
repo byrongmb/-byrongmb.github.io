@@ -5,7 +5,7 @@ propiedades
 valores
 */
 /*Selector de Etiqueta*/
-header{
+.header{
     background-color: #1d252c;
     color: white;
 }
@@ -19,6 +19,9 @@ li a{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+}
+ol{
+    margin: 1px;
 }
 
 body{
@@ -35,6 +38,7 @@ h1{
     letter-spacing: -.2px;
     font-weight: normal;
     color: white;
+    margin: 0px;
 }
 h1 strong{
     color:#026fff;
@@ -43,6 +47,7 @@ h1 strong{
 .project{
     border: 1px solid gray;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 
