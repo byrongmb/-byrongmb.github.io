@@ -159,3 +159,43 @@ figure {
   .footer a{
       color:white
   }
+
+  .event-list{
+      display: flex;
+  }
+.event{
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin: 10px;
+    width: 480px;
+    background: #f4fbff;
+}
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+.event-detail{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: left;
+}
+.event-title{
+    text-align: center;
+}
+.event-url{
+    color: #056fff;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.even-list-title{
+    margin-left: 20px;
+}
